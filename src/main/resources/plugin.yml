@@ -1,0 +1,15 @@
+name: DiscountSMP
+version: ${project.version}
+main: dev.floffah.discountsmp.discountsmp.DiscountSMP
+api-version: 1.16
+authors: [ Flofah ]
+depend:
+  - LuckPerms
+description: DiscountSMP-related tools
+commands:
+  disc:
+    description: Main DiscountSMP command for admins
+  tellall:
+    description: /tellraw but with colour codes
+  toggle:
+    description: Toggles certain player states
